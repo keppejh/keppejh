@@ -35,7 +35,7 @@
 
 A lightweight, automated daily intelligence pipeline that fetches weather data, formats it with a stylized cyberpunk theme, and delivers it daily—complete with automated error handling and self-healing alert notifications.
 
-Check out the [weather-pipeline repository(https://github.com/keppejh/weather-pipeline)
+Check out the [weather-pipeline repository](https://github.com/keppejh/weather-pipeline)
 
 ---
 
