@@ -30,6 +30,12 @@
 * **Key Features Built:**
   * Clean single-table operational layout tracking status, dates, and follow-up schedules.
   * Custom grouping and filtering views to prioritize active outreach and manage interview milestones.
+ 
+ #### 3.⚡ Cyberpunk Weather Pipeline & Self-Healing Alert System
+
+A lightweight, automated daily intelligence pipeline that fetches weather data, formats it with a stylized cyberpunk theme, and delivers it daily—complete with automated error handling and self-healing alert notifications.
+
+Check out the weather-pipeline repository](https://github.com/keppejh/weather-pipeline)
 
 ---
 
