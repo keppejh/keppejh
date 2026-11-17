@@ -10,9 +10,9 @@
 
 ### 🛠️ Technical Toolkit & Skills
 * **Operations & Systems:** Airtable, monday.com, Notion, Google Workspace, Microsoft 365.
-* **Automation & AI:** n8n, Zapier, AI Agent Configuration & Orchestration, Prompt Engineering.
+* **Automation & AI:** AI Agent Configuration & Orchestration, Prompt Engineering.
 * **Development & Version Control:** GitHub, Beginner JavaScript (Variables, Arrays, Objects, JSON parsing).
-* **Core Competencies:** Database Management, Process Improvement, Business Process Automation (BPA), Records Management, Data Triage & Routing.
+* **Core Competencies:** Database Management, Process Improvement, Business Process Automation (BPA), Records Management.
 
 ---
 
@@ -23,15 +23,14 @@
 * **Key Features Built:**
   * Categorized groups for *Active Core Tools*, *Departmental Tools*, and *Evaluating/Deprecating*.
   * Custom column schemas mapping status, spend, renewal dates, and department ownership.
-  * Automated digital agent configurations to streamline software triage and team notifications.
+  * Configured certified monday.com digital agent automations to streamline software triage and team notifications.
 
 #### 2. 📊 Personal Job Search & Application Tracker (`Airtable`)
-* **Overview:** Built a relational database application to streamline career operations, tracking target organizations, active applications, interview stages, and networking contacts in a single unified workspace.
+* **Overview:** Built a relational tracking application to streamline career operations, organizing target organizations, active applications, interview pipelines, and networking contacts.
 * **Key Features Built:**
-  * Relational data structures linking companies, job descriptions, and recruiter contact details.
-  * Custom single-select pipeline views (Wishlist ➔ Applied ➔ Interviewing ➔ Offer).
-  * Automated follow-up date tracking and status filters to maintain high-response outreach discipline.
-    
+  * Clean single-table operational layout tracking status, dates, and follow-up schedules.
+  * Custom grouping and filtering views to prioritize active outreach and manage interview milestones.
+
 ---
 
 ### 💼 Professional Background Highlights
