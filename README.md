@@ -16,33 +16,33 @@
 
 ---
 
-### 🚀 Featured Operational Projects
+# 🚀 Featured Operational Projects
 
-#### 1. 🏢 Internal Tech Stack & License Tracker (`monday.com`)
+### 1. 🏢 Internal Tech Stack & License Tracker (`monday.com`)
 * **Overview:** Designed a centralized mobile-optimized tracking system in monday.com to manage company software sprawl, monitor vendor contracts, track monthly costs, and assign software owners.
 * **Key Features Built:**
   * Categorized groups for *Active Core Tools*, *Departmental Tools*, and *Evaluating/Deprecating*.
   * Custom column schemas mapping status, spend, renewal dates, and department ownership.
   * Configured certified monday.com digital agent automations to streamline software triage and team notifications.
 
-#### 2. Mobile Software Directory & Tech Stack Tracker 📱
+### 2. # Mobile Software Directory & Tech Stack Tracker 📱
 
 > **Platform:** monday.com Work OS (Vibe App Framework)  
-> **Connected Board:** Tool Tracker  
+> **Repository:** [github.com/keppejh/monday-mobile-software-directory](https://github.com/keppejh/monday-mobile-software-directory)  
 > **Status:** Prototyped & Functional (Unpublished due to workspace plan tier)
 
 ![Software Directory App Preview](./software-directory.png)
 
 ---
 
-## 🌟 Overview
+#### 🌟 Overview
 The **Mobile Software Directory** is a touch-friendly, responsive mobile application built using the **monday.com Vibe** framework. Designed to solve internal software sprawl and eliminate visibility bottlenecks, it empowers team members to browse company software, identify departmental tool owners, monitor monthly recurring costs, and verify subscription statuses in seconds.
 
 ---
 
-## ✨ Key Capabilities
+#### ✨ Key Capabilities
 * **Real-Time Search:** A sticky search bar at the top of the screen allows users to instantly filter through every software tool by name while scrolling.
-* **Dynamic Category Filtering:** Horizontally scrollable category filter chips (e.g., *CRM*, *Engineering*, *Productivity*) are dynamically derived server-side from all categories present on the underlying monday.com board—not just the items currently loaded on screen.
+* **Dynamic Category Filtering:** Horizontally scrollable category filter chips (e.g., *CRM*, *Engineering*, *Productivity*) are dynamically derived server-side from all categories present on the underlying monday.com board.
 * **Glanceable Status Indicators:** Quick-filter pills at the top show live counts (e.g., *All*, *Active*, *Trial*), while individual item cards display color-coded status pills:
   * 🟢 **Green:** Active
   * 🟡 **Yellow:** Trial
@@ -53,7 +53,7 @@ The **Mobile Software Directory** is a touch-friendly, responsive mobile applica
 
 ---
 
-## 🏗️ Architecture & Data Schema
+#### 🏗️ Architecture & Data Schema
 This application pulls live relational data directly from a backing monday.com board (**Tool Tracker**) structured with the following schema:
 
 | Field / Column | monday.com Column Type | Purpose |
@@ -66,22 +66,19 @@ This application pulls live relational data directly from a backing monday.com b
 
 ---
 
-## 🎨 UI/UX Design Principles
+#### 🎨 UI/UX Design Principles
 * **Mobile-First Layout:** Single-column card architecture built specifically for thumb-friendly mobile navigation.
 * **High Accessibility:** Crisp typography with high-contrast text, generous row padding, and clear visual hierarchy so critical metadata can be scanned at a glance.
 
----
 
-## 💡 Operational Value
-Unmanaged SaaS subscriptions lead to duplicate spending, shadow IT, and unclear accountability during employee onboarding or offboarding. By layering a custom mobile directory over a centralized monday.com tracker, operations and IT teams give employees self-service visibility into the company tech stack without exposing the underlying master database to accidental edits.
 
-#### 3. 📊 Personal Job Search & Application Tracker (`Airtable`)
+### 3. 📊 Personal Job Search & Application Tracker (`Airtable`)
 * **Overview:** Built a relational tracking application to streamline career operations, organizing target organizations, active applications, interview pipelines, and networking contacts.
 * **Key Features Built:**
   * Clean single-table operational layout tracking status, dates, and follow-up schedules.
   * Custom grouping and filtering views to prioritize active outreach and manage interview milestones.
  
- #### 4.⚡ Cyberpunk Weather Pipeline & Self-Healing Alert System
+### 4.⚡ Cyberpunk Weather Pipeline & Self-Healing Alert System
 
 A lightweight, automated daily intelligence pipeline that fetches weather data, formats it with a stylized cyberpunk theme, and delivers it daily—complete with automated error handling and self-healing alert notifications.
 
