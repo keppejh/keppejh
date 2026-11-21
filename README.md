@@ -26,7 +26,7 @@ Built and deployed an automated Python sync script (sync.py) that syncs job appl
 * ***Scheduling & Logging:*** Configured to run hourly via cron with output logged to sync.log, plus environment secrets kept local using .env and excluded via .gitignore.
 * ***Field Mapping & Troubleshooting:*** Maps job fields (Job Title, Company, Location, Salary, Status, Job URL, and Date Applied) across REST APIs, including catching and adapting to exact Notion schema property names (such as a trailing space on "Date Applied ").
 
->[!NOTE]
+>[!NOTE] 📝
 >**Honest note & huge shoutout to AI:**
 >I built this iteratively with AI guidance as a practical learning and workflow project, validated on a small personal dataset with one-way creation and targeted write-back rather than full two-way conflict resolution. Huge shoutout to AI for helping me turn a phone-and-cloud idea into working code, debug API and Git steps along the way,and document it on GitHub.
 
