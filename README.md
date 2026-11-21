@@ -18,7 +18,7 @@
 
 # 🚀 Featured Operational Projects
 
-### 1. airtable-notion-sync
+### 1. Airtable to Notion Job Tracker Sync
 Built and deployed an automated Python sync script (sync.py) that syncs job application records from an Airtable "Companies" table into a Notion "Applications" database and writes back metadata (Notion Page ID, Notion URL, and a "Synced to Notion" flag) to prevent duplicate entries.
 
 **Key details & setup:**
