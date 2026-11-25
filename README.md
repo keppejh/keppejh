@@ -99,6 +99,13 @@ A lightweight, automated daily intelligence pipeline that fetches weather data, 
 
 Check out the [weather-pipeline repository](https://github.com/keppejh/weather-pipeline)
 
+### 6. 🗃️ Kestrel Ops & Asset Hub
+Built a four-table operational and asset tracking base (Employees, Hardware Assets, Software Subscriptions, and Vendors) on Airtable mobile for a fictional/sample company (Kestrel Cloud Systems). Designed the base around manual entry, linked records, status tags, and mobile filtered views (onboarding, offboarding, expiring warranties, upcoming renewals, and seat alerts) rather than formulas or rollups. Documented the schema, cleanup steps, and trade-offs in Notion, built iteratively with assistance from Gemini.
+Check out the [Kestrel Ops Repository](https://github.com/keppejh/Kestrel-Ops-Asset-Hub)
+
+![Build](https://img.shields.io/badge/Airtable-project-black?logo=airtable)
+![Build](https://img.shields.io/badge/Google-Gemini-blue?logo=google)
+
 ---
 
 ### 💼 Professional Background Highlights
